@@ -1,0 +1,3 @@
+package com.example.backend_login_page.dto;
+
+public record LoginRequestDTO (String email, String password){}
