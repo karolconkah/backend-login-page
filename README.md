@@ -86,4 +86,28 @@ Aplicação de conceitos REST
 
 Organização modular no Angular
 
+Como Executar
+Backend (Spring Boot)
+cd backend
+mvn spring-boot:run
+
+A aplicação iniciará em:
+
+http://localhost:8080
+
+Frontend (Angular 17)
+cd frontend
+npm install
+ng serve
+
+A aplicação estará disponível em:
+
+http://localhost:4200
+
+Observação
+
+O backend deve estar rodando antes de iniciar o frontend.
+
+O banco utilizado é H2 em memória (não requer instalação).
+
 Este projeto backend em Spring e Java foi integrado com o frontend disponível como login-page
